@@ -1,0 +1,14 @@
+The run_analysis.R script performs the following steps to clean the data:
+
+ 1. Read X_train.txt, y_train.txt and subject_train.txt from the d/loaded folders and store them in data variables.
+ 2. Read X_test.txt, y_test.txt and subject_test.txt from the d/loaded folders and store them in Label variables.
+ 3. Read X_subject.txt, y_subject.txt and subject_test.txt from the d/loaded folders and store them in subject variables.
+ 4. Concatenate testData to trainData and save to variable. 
+ 5. Concatenate testLabel to trainLabel and save to variable.
+ 6. Concatenate testSubject to trainSubject and save to variable.
+ 7. Read the features.txt file from the d/loaded folders store the data in a variable called features. 
+ 8. We only extract the by selecting mean and standard deviation. 
+ 9. Subset of to join data with the 66 corresponding columns.
+10. Read the activity_labels.txt file from the d/loaded folder and store to variable.
+11. Combine the labels to the data set in the first column.
+12. Write the cleanedData out to "merged_data.txt" file in current working directory.
